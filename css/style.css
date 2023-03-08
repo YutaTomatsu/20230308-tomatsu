@@ -29,7 +29,7 @@
 .firstview__title--top {
     font-family: 'Indie Flower', cursive;
     color: #B9176A;
-    font-size: 50px;
+    font-size: 55px;
     width: 500px;
     margin: 30px 0;
     padding: 30px 0;
@@ -50,12 +50,17 @@ span {
 
 .firstview__right img{
     position: relative;
+    margin-right: 0;
+    margin-left: auto;
     display: block;
-    text-align: right;
+    z-index: 0;
+    width: 800px;
 }
 
 .firstview__title {
     position: absolute;
+    z-index: 1;
+    right: 550px;
 }
 
 .news__center {
