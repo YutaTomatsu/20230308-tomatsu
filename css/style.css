@@ -60,7 +60,7 @@ span {
 .firstview__title {
     position: absolute;
     z-index: 1;
-    right: 550px;
+    left: 20%;
     
 }
 
