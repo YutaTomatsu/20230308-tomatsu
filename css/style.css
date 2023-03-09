@@ -61,6 +61,7 @@ span {
     position: absolute;
     z-index: 1;
     right: 550px;
+    
 }
 
 .news__center {
@@ -175,11 +176,13 @@ span {
 .about__text {
     width: 400px;
     margin: 0 70px;
+    height: 50px;
 }
 
 .about__img img {
     width: 400px;
     margin: 0 70px;
+
 }
 
 .service {
@@ -227,10 +230,13 @@ span {
     justify-content: center;
 }
 
+
+
 .service__grid--text1 {
     color: white;
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -434,7 +440,7 @@ span {
 }
 
 .company__table-table {
-    
+    margin: 70px 0;
 }
 
 .company__table {
